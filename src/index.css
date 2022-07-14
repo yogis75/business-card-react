@@ -38,7 +38,7 @@ body {
 
 .info--name {
   padding-top: 20px;
-  font-size: 21px;
+  font-size: 25px;
 }
 
 .info--role {
@@ -56,7 +56,7 @@ body {
 .info--btn_linkedin {
   width: 115px;
   height: 34px;
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0.7rem;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -74,4 +74,26 @@ body {
 
 .info--btn_linkedin > img {
   margin-bottom: -2px;
+}
+
+.about,
+.interests {
+  background-color: #1a1b21;
+  padding: 2rem 2.2rem 0 2.2rem;
+}
+
+.interests {
+  padding-top: 1.5rem;
+}
+
+.about--title,
+.interests--title {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.about--text,
+.interests--text {
+  font-size: 10.24px;
+  line-height: 15px;
 }

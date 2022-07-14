@@ -4,7 +4,7 @@ function Info() {
   return (
     <div className="info">
       <img className="info--img" src="/src/images/pic.jpg" alt="pic" />
-      <h3 className="info--name">Yogeshwar Suryavamshi</h3>
+      <h3 className="info--name">Yogeshwar S</h3>
       <p className="info--role">Frontend developer</p>
       <p className="info--website">yogeshwar.dev</p>
       <div className="btns">
