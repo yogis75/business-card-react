@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #1c1c1c;
+}
+
+.app {
+  max-width: 550px;
+  height: 868px;
+  color: #ffffff;
+  background-color: #23252c;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 317px;
+  padding-block: 2rem;
+  margin: 0 auto;
+  font-family: Inter, sans-serif;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1a1b21;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info--img {
+  max-width: 317px;
+  max-height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info--name {
+  padding-top: 20px;
+  font-size: 21px;
+}
+
+.info--role {
+  padding-top: 2px;
+  font-size: 12.8px;
+  color: #f3bf99;
+}
+
+.info--website {
+  padding-block: 10px;
+  font-size: 10.24px;
+}
+
+.info--btn_email,
+.info--btn_linkedin {
+  width: 115px;
+  height: 34px;
+  margin: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.info--btn_linkedin {
+  background-color: #0e76a8;
+  color: #ffffff;
+}
+
+.info--btn_email > img,
+.info--btn_linkedin > img {
+  margin-right: 10px;
+}
+
+.info--btn_linkedin > img {
+  margin-bottom: -2px;
+}
