@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 body {
   background-color: #1c1c1c;
 }
@@ -51,14 +52,38 @@ body {
   font-size: 10.24px;
 }
 
+.info--website > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .info--btn_email,
 .info--btn_linkedin {
+  display: inline-block;
   width: 115px;
   height: 34px;
   margin: 0.5rem 0.7rem;
   border-radius: 5px;
   border: none;
   outline: none;
+  cursor: pointer;
+}
+.info--btn_email:hover,
+.info--btn_linkedin:hover {
+  transform: scale(0.97);
+}
+
+.info--btn_email > a > p,
+.info--btn_linkedin > a > p {
+  display: inline-block;
+  font-size: 13px;
+  text-decoration: none;
+}
+.info--btn_email > a > p {
+  color: black;
+}
+.info--btn_linkedin > a > p {
+  color: #fff;
 }
 
 .info--btn_linkedin {
@@ -66,12 +91,12 @@ body {
   color: #ffffff;
 }
 
-.info--btn_email > img,
-.info--btn_linkedin > img {
+.info--btn_email > a > img,
+.info--btn_linkedin > a > img {
   margin-right: 10px;
 }
 
-.info--btn_linkedin > img {
+.info--btn_linkedin > a > img {
   margin-bottom: -2px;
 }
 
@@ -112,4 +137,8 @@ body {
 .footer > img {
   max-width: 25px;
   max-height: 25px;
+}
+
+.footer > a:hover {
+  transform: scale(1.1);
 }
